@@ -1,0 +1,218 @@
+
+<style type="text/css">
+
+              * {
+
+                  -webkit-transition-property: all;
+                  -webkit-transition-duration: .2s;
+                  -moz-transition-timing-function: cubic-bezier(100,50,21,6);
+                  -moz-transition-property: all;
+                  -moz-transition-timing-function: cubic-bezier(100,50,21,6);
+              }
+
+              div.top button a {
+
+                text-decoration: none; 
+
+              }
+
+              div.top button {
+
+                padding: 0.4% 0.8%;
+                background: #f5e5e6;
+                text-decoration: none;
+                border-radius: 5px;
+                margin: 0 0.8%;
+                font-size: 14pt;
+                cursor: pointer; 
+
+              }
+
+
+              div.top { 
+
+                width: 100%;
+                padding: 1% 0;
+                text-align: center; 
+                margin-bottom: 5%;
+                color: white;
+                top: 0;
+                position: fixed;
+                background-color: rgba(198, 210, 198, 0.3);
+
+              }  
+
+ 
+             body{
+              
+                font-family: 'Arial', sans-serif;
+                font-size: 14px;
+                text-align:justify;
+                width:100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+
+              }
+
+
+            h1{
+
+                font-family: 'cooper black', sans-serif;
+                color: #ff9999;
+                font-size: 90px;
+                text-align:center;
+
+            }
+
+                
+            h2{
+
+                font-family: 'cooper black', sans-serif;
+                color: #ff9999;
+                font-size: 20px;
+                display:block;
+                
+                padding:5px;
+                text-align:center;
+
+            }
+
+           
+            div.container {
+
+                margin: 0 02%;
+            }
+
+            
+            footer {
+               
+                padding: 2% ;
+                background-color: #cdc;
+                text-align: center;
+                color: #999; 
+                margin-top: 6%;                
+            }   
+            
+    
+            
+            #cabecalho{
+
+                height: 150px;
+                
+            }
+            
+            
+            #lado1, #lado01{
+                
+                width: 25%;                
+                min-height: 400px;
+                float: left;
+               
+            }
+
+           #lado2, #lado02{
+                
+                width: 50%;                
+                min-height: 400px;
+                float: left;
+               
+            }
+
+            @media(max-width: 400px){
+
+                #lado1, #lado2{
+                    width: 100%;
+                    clear: both;
+                }
+            }
+
+         /* CLASSES */
+
+
+            .recuo {
+
+                text-indent: 4em;
+
+            }
+
+            
+            .btn{
+
+                color:#999999;
+                background:rgba(0, 0, 0, 0.5);
+                padding:10px 20px;
+                font-size:20px;
+                text-decoration:none;
+                letter-spacing:2px;
+                text-transform:uppercase;
+
+            }
+
+
+            .btn:hover{
+
+                border:none;
+                background:#fff;
+                padding:20px 20px;
+                color:#1b1b1b;
+            }
+
+
+            .img {
+
+                  width: 300px;
+                  height: 310px;
+
+            }
+
+
+            .img2 {
+
+                  width: 270px;
+                  height: 310px;
+
+            }
+
+
+            .imgIcone{
+
+                  width: 200px;
+                  height: 300px;]
+
+            }
+
+
+            .imgIcone:hover{
+
+                  width: 300px;
+                  height: 400px;
+
+            }
+
+
+            .text-align-center {
+
+                  text-align: center;
+
+            }
+
+
+            .footer{
+
+                  font-size:16px;
+                  color:#ff3399;
+                  clear:both;
+                  display:block;
+                  letter-spacing:10px;
+                  border:2px solid #ff3399 ;
+                  padding:10px;
+                  text-decoration:none;
+                  width:800px;
+                  margin:auto;
+                  margin-top:400px;
+
+            }
+
+            
+</style>
